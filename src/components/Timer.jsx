@@ -19,7 +19,7 @@ const Timer = () => {
       intervalId = setInterval(
         () =>
           setTime((prevTime) => {
-            if (prevTime == 0) {
+            if (prevTime === 0) {
               return 0;
             } else {
               return time - 1;
